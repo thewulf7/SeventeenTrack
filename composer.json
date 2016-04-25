@@ -1,0 +1,27 @@
+{
+    "name": "thewulf7/SeventeenTrack",
+    "description": "Unofficial client to get info from 17track",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johnny Utkin",
+            "email": "thewulf7@me.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "guzzle/guzzle": "*",
+        "guzzlehttp/guzzle":"*",
+        "ramsey/array_column": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "phpunit/php-invoker" : ">=1.1.0@stable"
+    },
+    "autoload": {
+        "psr-0": {
+            "thewulf7\\SeventeenTrack": "src/"
+        }
+    }
+}
